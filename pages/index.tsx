@@ -10,14 +10,16 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className="flex flex-col items-center justify-center w-full h-screen">
+        <h1 className="text-6xl">Site under construction 👷🏼‍♂️</h1>
         <iframe
-          title="barney"
-          src="https://giphy.com/embed/ekkKldHuLW90Y"
-          width="480"
-          height="333"
-          frameBorder="0"
-          className="giphy-embed"
+          title="legendary"
+          width="50%"
+          height="50%"
+          src="https://www.youtube.com/embed/C19US6rqqAo?controls=0&autoplay=1&mute=0&loop=1"
+          frameBorder={0}
+          allow="autoplay"
+          allowFullScreen
         />
       </main>
     </div>
