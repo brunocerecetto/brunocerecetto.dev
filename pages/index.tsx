@@ -10,17 +10,21 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full h-screen">
-        <h1 className="text-6xl">Site under construction 👷🏼‍♂️</h1>
-        <iframe
-          title="legendary"
-          width="50%"
-          height="50%"
-          src="https://www.youtube.com/embed/C19US6rqqAo?controls=0&autoplay=1&mute=0&loop=1"
-          frameBorder={0}
-          allow="autoplay"
-          allowFullScreen
-        />
+      <main className="flex flex-col items-center justify-center w-full h-screen space-y-8">
+        <h1 className="text-2xl text-white md:text-3xl lg:text-4xl">
+          Site under construction 👷🏼‍♂️
+        </h1>
+        <div className="w-11/12 h-1/2 lg:w-1/2">
+          <iframe
+            title="legendary"
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/C19US6rqqAo?controls=0&autoplay=1&mute=0&loop=1"
+            frameBorder={0}
+            allow="autoplay"
+            allowFullScreen
+          />
+        </div>
       </main>
     </div>
   );
