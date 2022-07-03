@@ -1,6 +1,5 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-
+import type { NextPage } from "next";
+import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
@@ -12,11 +11,17 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <iframe src="https://giphy.com/embed/ekkKldHuLW90Y" width="480" height="333" frameBorder="0" className="giphy-embed"></iframe>
+        <iframe
+          title="barney"
+          src="https://giphy.com/embed/ekkKldHuLW90Y"
+          width="480"
+          height="333"
+          frameBorder="0"
+          className="giphy-embed"
+        />
       </main>
-
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
